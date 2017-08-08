@@ -1,0 +1,121 @@
+.resume-container {
+  position: relative;
+  margin: 80px auto 50px auto;
+  padding: 2em 0;
+  max-width: 1200px;
+  /*max-width: 370px;*/
+  width: 70%;
+  height: auto;
+  color: #282828;
+}
+
+.resume-container img {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.resume-container h1 {
+  position: relative;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 2.4em;
+}
+
+.resume-container .subtitle {
+  position: relative;
+  font-weigth: 400;
+  margin-bottom: 3em;
+}
+
+.resume-container section {
+  position: relative;
+  margin: 1em 0;
+  height: auto;
+  padding: 1em 0;
+}
+
+.resume-container section .title {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  margin-right: 2%;
+  text-align:  right;
+  color: #828282;
+  font-size: 1.4em;
+}
+
+.resume-container section .info {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  margin: 0 1em;
+}
+
+.resume-container section .info p {
+  font-weight: 300;
+  margin: 0;
+}
+
+/*Educaction Section*/
+
+.official-info {
+  position: relative;
+  display: inline-block;
+  width: 65%;
+  padding: 4px 0 15px 0;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #D2D7D3;
+}
+
+.official-info h3 {
+  margin: 0 0 15px 0;
+}
+
+.official-additional {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 25%;
+  padding: 4px 0 1em 0;
+}
+
+.official-additional > p:first-child {
+  padding-bottom: 1em;
+}
+
+/*Skills Icons*/
+
+/*NEAT Section*/
+
+.milestone {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.milestone img {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+  border-radius: 100%;
+  vertical-align: top;
+}
+
+.milestone .milestone-info {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  top: 4px;
+}
+
+.milestone .milestone-info p {
+  padding-bottom: 1em;
+}
+
+.resume-footer a {
+  color: inherit;
+  font-weight: normal;
+}
