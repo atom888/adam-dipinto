@@ -12,11 +12,11 @@
 <body>
 
 
-  <div>
+  <div class="index-container">
     <header>
-      <div>
-        <a href="index.html">Adam Dipinto</a>
-        <div>
+      <div class="header-content-wrapper index-header">
+        <a class="title" href="index.html">Adam Dipinto</a>
+        <div class="social-media-links">
           <a href="https://github.com/atom888" target="_blank" class="fa fa-github social-link github icon-size"></a>
           <a href="https://twitter.com/AdamDipinto" target="_blank" class="fa fa-twitter social-link twitter icon-size"></a>
           <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank" class="fa fa-linkedin social-link linkedin icon-size"></a>
@@ -25,26 +25,26 @@
       </div>
     </header>
 
-    <pre>
-      <span class="purple">function</span> <span class="blue">welcome</span> (<em>user, option</em>) {
+    <pre class="big-pre">
+      <span class="red">function</span> <span class="blue">welcome</span> (<em>user, option</em>) {
         <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green">"Welcome "</span> + user);
-        <span class="purple">switch</span> (option) {
-            <span class="purple">case</span> <span class="green">'resume'</span>:
-              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green">"My resume"<span>);
-            <span class="purple">break</span>;
-            <span class="purple">case</span> <span class="green">'projects'</span>:
-              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green">"My projects"<span>);
-            <span class="purple">break</span>;
-            <span class="purple">case</span> <span class="green">'blog'</span>:
-              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green">"My blog"<span>);
-            <span class="purple">break</span>;
-            <span class="purple">default</span>:
-              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green">"Home"<span>);
-            <span class="purple">break</span>;
+        <span class="red">switch</span> (option) {
+            <span class="red">case</span> <span class="green">'resume'</span>:
+              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green"><a href="resume.html">"My resume"</a></span>);
+            <span class="red">break</span>;
+            <span class="red">case</span> <span class="green">'projects'</span>:
+              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green"><a href="projects.html">"My projects"</a></span>);
+            <span class="red">break</span>;
+            <span class="red">case</span> <span class="green">'blog'</span>:
+              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green"><a href="blog.html" target="_blank">"My blog"</a></span>);
+            <span class="red">break</span>;
+            <span class="red">default</span>:
+              <span class="yellow">console</span>.<span class="sea-foam">log</span> (<span class="green"><a href="index.html">"Home"</a></span>);
+            <span class="red">break</span>;
         }
       }
     </pre>
-    <footer>
+    <footer class="index-footer">
       contact: { email: <a href="mailto:adam.dipinto@g.com?subject=Hey you">adam.dipinto@g.com</a> }
     </footer>
   </div>
