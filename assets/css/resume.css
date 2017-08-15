@@ -85,6 +85,15 @@
 }
 
 /*Skills Icons*/
+i {
+  margin: 10px 10px;
+}
+i:hover {
+
+}
+.row {
+  margin: 10px 0;
+}
 
 /*NEAT Section*/
 
