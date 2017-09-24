@@ -1,0 +1,26 @@
+body, html {
+  color: #666;
+  font-family: courier, sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a, a:focus, a:visited, a:active {
+  text-decoration: none;
+  color: #8E44AD;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #BE90D4;
+  text-decoration: underline;
+}
+
+p {
+  letter-spacing: 0.5px;
+}

@@ -26,13 +26,13 @@ title: Homepage
                 <!-- Pager -->
                 {% if paginator.total_pages > 1 %}
                 <ul class="pager">
-                  {% if paginator.previous+page%}
+                  {% if paginator.previous_page%}
                     <li class="previous">
                         <a href="{{paginator.previous_page_path}}"> &larr; Previous Posts</a>
                     </li>
                   {% endif %}
 
-                  {% if paginator.previous+page%}
+                  {% if paginator.previous_page%}
                     <li class="next">
                         <a href="{{paginator.next_page_path}}">Older Posts &rarr;</a>
                     </li>
