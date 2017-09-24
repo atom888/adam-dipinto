@@ -27,6 +27,12 @@ github_username:  atom888
 # Build settings
 markdown: kramdown
 paginate: 5
+<<<<<<< HEAD
+=======
+gems:
+  - jekyll-sitemap
+
+>>>>>>> blog
 theme: minima
 plugins:
   - jekyll-feed
